@@ -21,8 +21,6 @@ def add_data_for_name(name_data, year, rank, name):
 
 
 
-# ------------- DO NOT EDIT THE CODE BELOW THIS LINE ---------------- #
-
 
 def test1():
     name_data = {'Kylie': {'2010': '57'}, 'Nick': {'2010': '37'}}
