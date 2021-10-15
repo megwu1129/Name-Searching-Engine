@@ -1,9 +1,5 @@
 """
 SC101 Baby Names Project
-Adapted from Nick Parlante's Baby Names assignment by
-Jerry Liao.
-
-YOUR DESCRIPTION HERE
 """
 
 import sys
@@ -125,7 +121,6 @@ def print_names(name_data):
 
 
 def main():
-    # (provided, DO NOT MODIFY)
     args = sys.argv[1:]
     # Two command line forms
     # 1. file1 file2 file3 ..
