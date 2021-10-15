@@ -1,10 +1,4 @@
-"""
-SC101 Baby Names Project
-Adapted from Nick Parlante's Baby Names assignment by
-Jerry Liao.
 
-YOUR DESCRIPTION HERE
-"""
 
 import tkinter
 import babynames
@@ -60,8 +54,6 @@ def draw_fixed_lines(canvas):
     """
     canvas.delete('all')            # delete all existing lines from the canvas
 
-    # Write your code below this line
-    #################################
 
     # draw the fixed lines in the margin in the canvas
     canvas.create_line(GRAPH_MARGIN_SIZE, GRAPH_MARGIN_SIZE, CANVAS_WIDTH-GRAPH_MARGIN_SIZE, GRAPH_MARGIN_SIZE)
@@ -92,8 +84,6 @@ def draw_names(canvas, name_data, lookup_names):
     """
     draw_fixed_lines(canvas)        # draw the fixed background grid
 
-    # Write your code below this line
-    #################################
 
     for j in range(len(lookup_names)):
         name = lookup_names[j]
@@ -130,7 +120,6 @@ def draw_names(canvas, name_data, lookup_names):
                     tem_y = y
 
 
-# main() code is provided, feel free to read through it but DO NOT MODIFY
 def main():
     # Load data
     name_data = babynames.read_files(FILENAMES)
