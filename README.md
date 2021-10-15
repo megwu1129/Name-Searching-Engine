@@ -1,4 +1,4 @@
-# Name-Searching-Engine
+# Name Searching Engine
 
 ## Introduction
 
