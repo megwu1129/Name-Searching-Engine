@@ -1,13 +1,3 @@
-"""
-Stanford CS106AP Baby Names Project
-Adapted from Nick Parlante's Baby Names assignment by
-Sonja Johnson-Yu, Kylie Jue, and Nick Bowman.
-
-This file defines the functions needed to create the GUI for
-the Baby Names project.
-
-"""
-
 import tkinter
 
 def make_gui(top, width, height, names, draw_names, search_names):
